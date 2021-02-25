@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Appetite"; */
+}
+@font-face {
+	font-family: "Appetite";
+	src: url("./fonts/appetite/appetite.eot"); /* IE9 Compat Modes */
+	src: url("./fonts/appetite/appetite.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("./fonts/appetite/appetite.otf") format("opentype"), /* Open Type Font */
+		url("./fonts/appetite/appetite.svg") format("svg"), /* Legacy iOS */
+		url("./fonts/appetite/appetite.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("./fonts/appetite/appetite.woff") format("woff"), /* Modern Browsers */
+		url("./fonts/appetite/appetite.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+img.logo {
+    position: absolute;
+    left: 24px;
+}
+
+ul.hr li {
+    display: inline;
+    font-family: Appetite;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+}
+
+ul.hr {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #164194;
+}
+li {
+    list-style: none;
+}
