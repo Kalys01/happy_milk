@@ -1,9 +1,11 @@
-* {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Appetite"; */
+    font-family: "Appetite";
 }
+
+/* Подключение шрифта Appetite */
 @font-face {
 	font-family: "Appetite";
 	src: url("./fonts/appetite/appetite.eot"); /* IE9 Compat Modes */
@@ -15,6 +17,10 @@
 		url("./fonts/appetite/appetite.woff2") format("woff2"); /* Modern Browsers */
 	font-weight: normal;
 	font-style: normal;
+}
+
+header {
+    width: 100%;
 }
 
 .nav {
@@ -54,4 +60,46 @@ a {
 }
 li {
     list-style: none;
+}
+
+.image-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 1338px;
+}
+
+.image-content__left {
+    position: absolute;
+    left: 2.17%;
+}
+.participate {
+    font-family: Appetite;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 100%;
+    color: #fff;
+    display: block;
+}
+button.btn {
+    padding: 19px 32px;
+    background: #164194;
+    border-radius: 60px;
+    color: #fff;
+    outline: none;
+}
+.image-content__right {
+    position: absolute;
+    left: 54.71%;
+    top: 0;
+}
+
+/* Нижняя часть первого экрана */
+.content {
+    width: 100%;
+    height: 401px;
+}
+.content__left {
+
 }
