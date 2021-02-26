@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Appetite";
 }
+body {
+    width: 1440px;
+}
 
 /* Подключение шрифта Appetite */
 @font-face {
@@ -66,7 +69,8 @@ li {
     display: flex;
     position: relative;
     align-items: center;
-    width: 1338px;
+    width: 100%;
+    background: #164194;
 }
 
 .image-content__left {
@@ -99,7 +103,107 @@ button.btn {
 .content {
     width: 100%;
     height: 401px;
+    display: flex;
 }
-.content__left {
 
+.content__left,
+.content__right {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content__left {   
+    background: #AEC910;
+    width: 345px;
+}
+.content__right {
+    background: #164194;
+    width: 1095px;
+}
+.content__left img {
+    position: absolute;
+}
+.content__right  img {
+    position: absolute;
+}
+
+.breakfast {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px, 27px;
+}
+
+span.breakfast__milk {
+    position: absolute;
+    font-size: 24px;
+    line-height: 125%;
+    color: #fff;
+    
+}
+
+img.cup {
+    /* width: 100%; */
+    position: absolute;
+    top: 0;
+    left: -1px;
+}
+
+
+
+.rules {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules__first,
+.rules__second,
+.rules__third {
+    width: 365px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.rules__second {}
+.rules__third {}
+
+
+.rules__first-first,
+.rules__second-second,
+.rules__third-third {
+    /* width: calc(100%-55px); */
+    width: 300px;
+    height: 320px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* left: 55px; */
+}
+.rules__first-info,
+.rules__second-info,
+.rules__third-info {
+    /* position: absolute; */
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: -0.2px;
+    color: #fff;
+}
+.rules__first-info {
+    bottom: 40px;
+}
+.rules__first-info,
+.rules__third-info {
+    top: 0;
+}
+.rules__second-info {
+    bottom: 0;
 }
