@@ -1,0 +1,19 @@
+{
+  "name": "happy_milk",
+  "version": "1.0.0",
+  "description": "test layout",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalys01/happy_milk.git"
+  },
+  "author": "Kalys Zhekshenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalys01/happy_milk/issues"
+  },
+  "homepage": "https://github.com/kalys01/happy_milk#readme"
+}
